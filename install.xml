@@ -4,9 +4,9 @@
 	<summary>Vanilla forums members integration plugin.</summary>
 	<author>Intelliants LLC</author>
 	<contributor>Intelliants LLC</contributor>
-	<version>3.3.0</version>
-	<date>2015-08-04</date>
-	<compatibility>3.3</compatibility>
+	<version>4.0.0</version>
+	<date>2016-01-06</date>
+	<compatibility>4.0</compatibility>
 
 	<config group="miscellaneous" name="vanilla_separator" type="divider">Vanilla forums</config>
 	<config group="miscellaneous" name="vanilla_client_id" type="text" description="Vanilla client ID"><![CDATA[]]></config>
