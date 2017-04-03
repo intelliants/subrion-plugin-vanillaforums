@@ -1,19 +1,19 @@
 <p>Please follow these instructions to setup single sing-on integration for your VanillaForums. We don't cover VanillaForums integration in details as this information could be found on their official website.</p>
 <p>
-	<ul>
-		<li>Install VanillaForums on the same domain where you have Subrion CMS installed.</li>
-		<li>Install VanillaForums jsConnect plugin: http://vanillaforums.org/addon/jsconnect-plugin</li>
-		<li>Open VanillaForums dashboard and click Plugins, edit jsConnect plugin.</li>
-		<li>Add new connection as follows:<br>
-			1. Click Generate Client ID and Secret<br>
-			2. Site Name = whatever you wish<br>
-			3. Authenticate Url = (insert your full URL to subrion cms installation)/login/read.json
-		</li>
-		<li>Save Changes</li>
-		<li>Go to Users > Registration and change 'Change the way that new users register with the site' to 'Connect'</li>
-		<li>Install Subrion plugin VanillaForums Signle Sign-On</li>
-		<li>Go to Subrion Admin Panel -> Configuration -> Miscellaneous</li>
-		<li>Find the section related to VanillaForums and insert the key &amp; Secret you generated in VanillaForums dashboard, Save Changes</li>
-		<li>Create a new page with External Content and place it in the menu. It should be a full URL to your forums homepage.</li>
-	</ul>
+    <ul>
+        <li>Install VanillaForums on the same domain where you have Subrion CMS installed.</li>
+        <li>Install VanillaForums jsConnect plugin: http://vanillaforums.org/addon/jsconnect-plugin</li>
+        <li>Open VanillaForums dashboard and click Plugins, edit jsConnect plugin.</li>
+        <li>Add new connection as follows:<br>
+            1. Click Generate Client ID and Secret<br>
+            2. Site Name = whatever you wish<br>
+            3. Authenticate Url = (insert your full URL to subrion cms installation)/login/read.json
+        </li>
+        <li>Save Changes</li>
+        <li>Go to Users > Registration and change 'Change the way that new users register with the site' to 'Connect'</li>
+        <li>Install Subrion plugin VanillaForums Signle Sign-On</li>
+        <li>Go to Subrion Admin Panel -> Configuration -> Miscellaneous</li>
+        <li>Find the section related to VanillaForums and insert the key &amp; Secret you generated in VanillaForums dashboard, Save Changes</li>
+        <li>Create a new page with External Content and place it in the menu. It should be a full URL to your forums homepage.</li>
+    </ul>
 </p>
