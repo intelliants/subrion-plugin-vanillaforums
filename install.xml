@@ -4,15 +4,15 @@
     <summary>Vanilla forums members integration plugin.</summary>
     <author>Intelliants LLC</author>
     <contributor>Intelliants LLC</contributor>
-    <version>4.1.0</version>
-    <date>2017-04-03</date>
-    <compatibility>4.1</compatibility>
+    <version>4.2.0</version>
+    <date>2018-03-14</date>
+    <compatibility>4.2</compatibility>
 
     <config group="miscellaneous" name="vanilla_separator" type="divider">Vanilla forums</config>
     <config group="miscellaneous" name="vanilla_client_id" type="text" description="Vanilla client ID"><![CDATA[]]></config>
     <config group="miscellaneous" name="vanilla_secret_key" type="text" description="Vanilla secret"><![CDATA[]]></config>
 
     <hooks>
-        <hook name="phpCoreBeforePageDisplay" page_type="front" pages="login" filename="hook.login"><![CDATA[]]></hook>
+        <hook name="phpCoreBeforePageDisplay" page_type="front" pages="login" filename="hook.login.php"><![CDATA[]]></hook>
     </hooks>
 </module>
